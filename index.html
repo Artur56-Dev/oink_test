@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section class="top-panel">
+            <div class="oink-logo">
+                <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/oink_logo.svg')); ?>" alt="Oink Logo">
+            </div>
+            <div class="header-right-panel">
+                <div class="header-social">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/search.svg')); ?>" alt="поиск" style="">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/telegram.svg')); ?>" alt="телеграм">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/vk.svg')); ?>" alt="вк">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/visibility.svg')); ?>">
+                </div>
+
+                <div class="schedule">
+                    <div class="changes">
+                        <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/calendar_month.svg')); ?>" />
+                        <div class="separator"></div>
+                        <div class="changes-text">
+                            <h4>Изменения</h4>
+                            <a class="link-changes">21 января 2024</a>
+                            <p>Суббота</p>
+                        </div>
+                        <button class="expand_changes">
+                            <img id="expand-img" src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/expand_more.svg')); ?>">
+                        </button>
+                    </div>
+                    <div class="changes">
+                        <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/calendar_month.svg')); ?>" />
+                        <div class="separator"></div>
+                        <div class="changes-text">
+                            <h4>Изменения</h4>
+                            <a class="link-changes">21 января 2024</a>
+                            <p>Суббота</p>
+                        </div>
+                    </div>
+                    <div class="changes">
+                        <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/calendar_month.svg')); ?>" />
+                        <div class="separator"></div>
+                        <div class="changes-text">
+                            <h4>Изменения</h4>
+                            <a class="link-changes">21 января 2024</a>
+                            <p>Суббота</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <section class="down-panel">
+            <ul class="down-menu">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Колледж</a></li>
+                <li><a href="#">Абитуриентам</a></li>
+                <li><a href="#">Студентам</a></li>
+                <li><a href="#">Преподавателям</a></li>
+                <li><a href="#">Конткаты</a></li>
+                <li><a href="#">IT-куб</a></li>
+                <li><a href="#">ФП "Профессианалитет"</a></li>
+            </ul>
+        </section>
+
+    </header>
+<main>
+    <div class="slide-content">
+        <div class="left-menu">
+            <ul>
+                <li><a href="#">Сведения об образовательной организации</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Общая информация</a></li>
+                <li><a href="#">Газета колледжа</a></li>
+                <li><a href="#">Ситсема менеджмента качесва</a></li>
+                <li><a href="#">Приемная комиссия</a></li>
+                <li><a href="#">Олимпиада</a></li>
+                <li><a href="#">Воспитательные работы</a></li>
+                <li><a href="#">Профориентация</a></li>
+                <li><a href="#">Wordskills</a></li>
+                <li><a href="#">Полезная информация</a></li>
+                <li><a href="#">Часто задаваемые вопросы</a></li>
+            </ul>
+        </div>
+        <div class="slide">
+            <div class="parent-slider-dots">
+                <div class="slider-dots">
+                </div>
+            </div>
+            <div class="parent-slider-scroll">
+                <ul>
+                    <li>
+                        <button id="prev-btn">
+                            <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/arrow_scroll.svg')); ?>" />
+                        </button>
+                    </li>
+                    <li>
+                        <button id="next-btn">
+                            <img style="transform: rotate(180deg);" src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/arrow_scroll.svg')); ?>" />
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="slider-container">
+                <div class=" slide-item permanent-content">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/director.jpg')); ?>" />
+                    <div class="parent-discription">
+                        <h1 class="discription">
+                            Рада приветствовать вас на сайте
+                            Орского индустриального колледжа
+                        </h1>
+                    </div>
+                </div>
+                <div class="slide-item news-content">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/director.jpg')); ?>" />
+                    <div class="parent-discription">
+                        <h1 class="discription">
+                            Рада приветствовать вас на сайте
+                            Орского индустриального колледжа
+                        </h1>
+                    </div>
+                </div>
+                <div class="slide-item evens-content">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/director.jpg')); ?>" />
+                    <div class="parent-discription">
+                        <h1 class="discription">
+                            Рада приветствовать вас на сайте
+                            Орского индустриального колледжа
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="specialties-container-parent">
+        <h2>Наши специальности</h2>
+        <div class="specialties-container">
+            <div class="specialty">
+                <div class="img-container">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/professions/power-plant.png')); ?>" />
+                </div>
+                <div class="text-container">
+                    <p>Монтаж, наладка и эксплуатация электрооборудования промышленных и гражданских зданий</р>
+                </div>
+            </div>
+            <div class="specialty">
+                <div class="img-container">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/professions/pickaxe.png')); ?>" />
+                </div>
+                <div class="text-container">
+                    <p>Подземная разработка месторождений полезных ископаемых</р>
+                </div>
+            </div>
+            <div class="specialty">
+                <div class="img-container">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/professions/computer.png')); ?>" />
+                </div>
+                <div class="text-container">
+                    <p>Информационные системы и программирование</р>
+                </div>
+            </div>
+            <div class="specialty">
+                <div class="img-container">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/professions/antenna.png')); ?>" />
+                </div>
+                <div class="text-container">
+                    <p> Инфокоммуникационные сети и системы связи</р>
+                </div>
+            </div>
+
+
+            <div class="specialty">
+                <div class="img-container">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/professions/fast-delivery.png')); ?>" />
+                </div>
+                <div class="text-container">
+                    <p>Операционная деятельность в логистике</р>
+                </div>
+            </div>
+            <div class="specialty">
+                <div class="img-container">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/professions/spanner.png')); ?>" />
+                </div>
+                <div class="text-container">
+                    <p>Монтаж, техническое обслуживание, эксплуатация и ремонт промышленного оборудования (по отраслям)</р>
+                </div>
+            </div>
+            <div class="specialty">
+                <div class="img-container">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/professions/police.png')); ?>" />
+                </div>
+                <div class="text-container">
+                    <p>Правоохранительная деятельность</р>
+                </div>
+            </div>
+            <div class="specialty">
+                <div class="img-container">
+                    <img src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/professions/scale.png')); ?>" />
+                </div>
+                <div class="text-container">
+                    <p>Юриспруденция</р>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="news-container-parent">
+        <div class="main-news-container-parent indent-l">
+            <h1>Главное</h1>
+            <div class="main-news-container">
+                <div class="main-news">
+                    <img height="100%" width="100%" src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/main_news.jpg')); ?>">
+                </div>
+                <div class="discription-container">
+                    <p>20.20.2020</p>
+                    <h3>Отряд "Адреналин" ГАПОУ "ОИК" принял участие в Параде Победы</h3>
+                    <p>9 мая ребята волонтерского отряда "Адреналин" ГАПОУ "ОИК" приняли участие в Параде Победы и пронесли портреты орчан Героев Советского Союза, Героев России и Героев - участников Специальной военной операции sadfsdfds sdf sdfsdfsdfsdfsdfasfdssssss sdfsdf sdfsdfsdf s fsdfsd fsdf sfs sdf sdfsdfsd sdf sdfsd sdfsd </p>
+                    <a href="#">Читать далее</a>
+                </div>
+            </div>
+        </div>
+        <div class="latest-news-container-parent indent-r">
+            <h1>Новости</h1>
+            <div class="latest-news-container">
+                <div class="last-news">
+                    <div class="main-news">
+                        <img height="100%" width="100%" src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/main_news.jpg')); ?>">
+                    </div>
+                    <div class="latest-discription-container discription-container">
+                        <p>20.20.2020</p>
+                        <h3>Отряд "Адреналин" ГАПОУ "ОИК" принял участие в Параде Победы</h3>
+                        <p>9 мая ребята волонтерского отряда "Адреналин" ГАПОУ "ОИК" приняли участие в Параде Победы и пронесли портреты орчан Героев Советского Союза, Героев России и Героев - участников Специальной военной операции sadfsdfds sdf sdfsdfsdfsdfsdfasfdssssss sdfsdf sdfsdfsdf s fsdfsd fsdf sfs sdf sdfsdfsd sdf sdfsd sdfsd </p>
+                        <a href="#">Читать далее</a>
+                    </div>
+                </div>
+                <div class="last-news">
+                    <div class="main-news">
+                        <img height="100%" width="100%" src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/main_news.jpg')); ?>">
+                    </div>
+                    <div class="latest-discription-container discription-container">
+                        <p>20.20.2020</p>
+                        <h3>Отряд "Адреналин" ГАПОУ "ОИК" принял участие в Параде Победы</h3>
+                        <p>9 мая ребята волонтерского отряда "Адреналин" ГАПОУ "ОИК" приняли участие в Параде Победы и пронесли портреты орчан Героев Советского Союза, Героев России и Героев - участников Специальной военной операции sadfsdfds sdf sdfsdfsdfsdfsdfasfdssssss sdfsdf sdfsdfsdf s fsdfsd fsdf sfs sdf sdfsdfsd sdf sdfsd sdfsd </p>
+                        <a href="#">Читать далее</a>
+                    </div>
+                </div>
+                <div class="last-news">
+                    <div class="main-news">
+                        <img height="100%" width="100%" src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/main_news.jpg')); ?>">
+                    </div>
+                    <div class="latest-discription-container discription-container">
+                        <p>20.20.2020</p>
+                        <h3>Отряд "Адреналин" ГАПОУ "ОИК" принял участие в Параде Победы</h3>
+                        <p>9 мая ребята волонтерского отряда "Адреналин" ГАПОУ "ОИК" приняли участие в Параде Победы и пронесли портреты орчан Героев Советского Союза, Героев России и Героев - участников Специальной военной операции sadfsdfds sdf sdfsdfsdfsdfsdfasfdssssss sdfsdf sdfsdfsdf s fsdfsd fsdf sfs sdf sdfsdfsd sdf sdfsd sdfsd </p>
+                        <a href="#">Читать далее</a>
+                    </div>
+                </div>
+                <div class="last-news">
+                    <div class="main-news">
+                        <img height="100%" width="100%" src="<?php echo esc_url(get_parent_theme_file_uri('assets/images/main_news.jpg')); ?>">
+                    </div>
+                    <div class="latest-discription-container discription-container">
+                        <p>20.20.2020</p>
+                        <h3>Отряд "Адреналин" ГАПОУ "ОИК" принял участие в Параде Победы</h3>
+                        <p>9 мая ребята волонтерского отряда "Адреналин" ГАПОУ "ОИК" приняли участие в Параде Победы и пронесли портреты орчан Героев Советского Союза, Героев России и Героев - участников Специальной военной операции sadfsdfds sdf sdfsdfsdfsdfsdfasfdssssss sdfsdf sdfsdfsdf s fsdfsd fsdf sfs sdf sdfsdfsd sdf sdfsd sdfsd </p>
+                        <a href="#">Читать далее</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</main>
+    <footer>
+    </footer>
+    </body>
+
+    </html>
